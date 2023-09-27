@@ -36,14 +36,3 @@ AddEventHandler('onClientResourceStop', function (resourceName)
     exports['av_apps']:removeApp(appName)
   end
 end)
-
-local website = {
-    name = "uwucafe",
-    label = "UwU Cafe",
-    website = "https://uwucatcafe.com/",
-    isEnabled = function()
-        return true
-    end
-}
-
-exports['av_apps']:registerApp(website)
